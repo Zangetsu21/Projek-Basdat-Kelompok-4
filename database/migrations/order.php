@@ -13,10 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('password_resets', function (Blueprint $table) {
-            $table->string('email')->index();
-            $table->string('token');
-            $table->timestamp('created_at')->nullable();
+        Schema::create('order', function (Blueprint $table) {
+            $table->primary('order_id');
+            $table->text('status_order');
+            $table->double('order_weight, 4, 1');
+            $table->integer('total_order')->nulllable();
+            $table->foreign('user_id');
+            $table->foreign('product_id');
         });
     }
 
