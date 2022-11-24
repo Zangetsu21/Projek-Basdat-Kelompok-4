@@ -1,0 +1,63 @@
+.myBG
+{
+    height: 100vh;
+    background: url("../assets/bg/banner.jpeg"); /* harus pakai dua titik */
+    background-size: cover;
+}
+
+.Navig
+{
+    font-weight: 200;
+    text-shadow: 2px 2px whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.title1
+{
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1;
+    text-shadow: 2px 2px whitesmoke;
+    letter-spacing: 5px;
+    
+    font-family: "Times New Roman", Times, serif;
+}
+
+.title
+{
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1;
+    text-shadow: 2px 2px whitesmoke;
+    letter-spacing: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.kategori
+{
+    height: auto;
+    background-position: center;
+}
+
+.fruitWrapper
+{
+    display: flex;
+    justify-items: center;
+}
+
+.fruitImage
+{
+    height: auto;
+    width : 300px;
+    background-color: dark;
+    margin: 5px;
+    padding: 5px;
+    justify-items: stretch;
+}
+
+.katImage
+{
+    height: 200px;
+}
