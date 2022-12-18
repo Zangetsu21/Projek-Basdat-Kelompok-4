@@ -1,6 +1,6 @@
 # Tugas Akhir Mata Kuliah KOM120F - Basis Data
 
-![alt text](https://github.com/Zangetsu21/Projek-Basdat-Kelompok-4/blob/master/logo.png?raw=true)
+![plot](./public/images/logo.png)
 
 ## Basis Data P4 - Kelompok 4
 
